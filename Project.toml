@@ -1,0 +1,10 @@
+name = "ExamplePackage"
+uuid = "50d8aeb0-f1e6-11e8-3cc3-63048d523c5b"
+authors = ["malaf1 <44081590+malaf1@users.noreply.github.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
